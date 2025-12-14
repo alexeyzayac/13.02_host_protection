@@ -24,3 +24,20 @@
 9. sudo apt install -y cryptsetup
 
 # Создайте небольшой раздел, например, 100 Мб
+10. sudo fdisk /dev/vdb
+
+# Зашифруйте созданный раздел с помощью LUKS
+11. sudo cryptsetup -y -v --type luks2 luksFormat /dev/vdb1
+
+12. sudo cryptsetup luksOpen /dev/vdb1 disk
+
+13. sudo dd if=/dev/zero of=/dev/mapper/disk
+14. sudo mkfs.ext4 /dev/mapper/disk
+
+15. mkdir -p $HOME/.secret
+16. sudo mount /dev/mapper/disk $HOME/.secret/
+
+17. sudo umount $HOME/.secret
+18. sudo cryptsetup luksClose disk
+
+

@@ -43,6 +43,14 @@
 
 #### Решение:
 
-##### Задание выполнялось в Yandex Cloud, был добавлен отдельный диск и на нём созда раздел 100мб:
-
 ![img](img/screenshot_3.png)
+
+![img](img/screenshot_4.png)
+
+![img](img/screenshot_5.png)
+
+![img](img/screenshot_6.png)
+
+![img](img/screenshot_7.png)
+
+![img](img/screenshot_8.png)
