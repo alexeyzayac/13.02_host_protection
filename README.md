@@ -43,14 +43,26 @@
 
 #### Решение:
 
+##### Создание раздела 100мб на ново-добавленом vda диске vda1:
+
 ![img](img/screenshot_3.png)
+
+##### Подготовка раздела:
 
 ![img](img/screenshot_4.png)
 
+##### Монтирование раздела:
+
 ![img](img/screenshot_5.png)
+
+##### Форматирование раздела:
 
 ![img](img/screenshot_6.png)
 
+##### Монтирование «открытого» раздела:
+
 ![img](img/screenshot_7.png)
+
+##### Завершение работы:
 
 ![img](img/screenshot_8.png)
