@@ -1,0 +1,20 @@
+###########
+# Задание 1
+###########
+
+# Установите eCryptfs
+1. sudo apt update
+2. sudo apt install -y ecryptfs-utils
+
+# Добавьте пользователя cryptouser
+3. sudo adduser cryptouser
+4. su - cryptouser
+5. touch 123.txt 456.txt
+6. exit
+
+# Зашифруйте домашний каталог пользователя с помощью eCryptfs
+7. sudo ecryptfs-migrate-home -u cryptouser
+
+###########
+# Задание 2
+###########
